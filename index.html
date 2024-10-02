@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - Testando habilidades com Html e CSS</title>
+    <link rel="shortcut icon" href="/img/nficon2023.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="img/Netflix_Logo_PMS.png" class="logo">
+            <div>
+                <select class="seletor_linguagem">
+                    <option lang="pt" label="Português" value="pt-BR" selected>Português</option>
+                    <option lang="en" label="English" value="en-BR">English</option>
+                </select>
+                <button class="entrar-btn"><strong>Entrar</strong></button>
+            </div>
+        </nav>
+        <div class="header__conteudo">
+            <h1>Filmes, séries e muito mais, sem limites</h1>
+            <h3>A partir de R$ 20,90. Cancele quando quiser.</h3>
+            <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <form class="formulario-cadastro">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Vamos lá ></button>
+            </form>
+        </div>
+    </div>
+    <div class="zoom">
+        <img src="img/pipoca.svg">
+        <div class="zoom__container">
+            <div class="zoom__container__texto">
+                <h3>A Netflix que você adora por apenas R$ 20,90.</h3>
+                <p>Aproveite nossa opção mais acessível, o plano com anúncios.</p>
+            </div>
+            <button>Saiba mais</button>
+        </div>      
+    </div>
+    <div class="em_alta">
+        <h1>Em alta</h1>
+        <div class="em_alta__seletores">
+            <select class="ranking-paises">
+                <option lang="pt" label="Brasil" value="brasil" selected>Brasil</option>
+                <option lang="en" label="Global" value="global">Global</option>
+            </select>
+            <select class="ranking-conteudos">
+                <option lang="pt" label="Filmes" value="filmes" selected>Filmes</option>
+                <option lang="en" label="Séries" value="series">Séries</option>
+            </select>
+        </div>
+        
+    </div>
+</body>
+</html>
